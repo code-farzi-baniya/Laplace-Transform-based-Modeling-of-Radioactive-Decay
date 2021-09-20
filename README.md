@@ -9,7 +9,15 @@ where N is the population at some particular time t. The equation for an RLC cir
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{dQ}{dt} = I">.
 
-## Laplace transform to solve differential equations
+
+## Simulation based results : 
+![radioactive decay](https://user-images.githubusercontent.com/78647606/134023160-12cb9aa4-c42f-41ca-9229-aa2678e8b084.jpeg)
+
+<br/>
+
+![population growth](https://user-images.githubusercontent.com/78647606/134023415-60b150a1-d7c2-40bd-9d5e-a26f68a4b3f5.jpeg)
+
+## Laplace Transform to solve differential equations
 Laplce tranform is defined as 
 
 <img src="https://render.githubusercontent.com/render/math?math=F(s) = \int_0^{+\infty} f(t) e^{-st} \dt ">.
@@ -50,8 +58,10 @@ Mathematical equations can be found everywhere in real world from simple pendulu
 #### GUI
 Graphical User Interfaces (GUIs), which is also called apps. It eliminates the need for other to learn MATLAB language in order to run the program. We have created an interactive app using MATLAB App Designer to simulate various real life problems which can be solved using laplace transform.
 
-We have used callback functions in our app.A callback is a function that executes when a user interacts with a UI component in your app.A callback can be created using several ways.
+![RLC analysis](https://user-images.githubusercontent.com/78647606/134023099-b4a2ee86-85c1-4916-b0fc-a5a5b75452c8.jpeg)
 
+
+We have used callback functions in our app.A callback is a function that executes when a user interacts with a UI component in your app.A callback can be created using several ways.
 
 
 We have used the right click method,Right-click a component in the canvas, Component Browser, or App Layout pane, and select Callbacks > Add (callback property) callback.
